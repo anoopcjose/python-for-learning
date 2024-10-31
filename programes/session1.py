@@ -27,5 +27,8 @@ print(fruits)
 name = "Aagney" + " " + "Ratheesh"
 print(name)
 
-name = "Aagney" * 3
-print(name)
+name = [[1, 2], [3, [4, 9, 8], 5], 6, 7]
+print(name[1][1][1])
+
+str = "abcdefgh"
+print(str[6:1:-2])
