@@ -1,3 +1,5 @@
 def print_name(name):
     print(name)
-print_name("Aagney RH")
+
+myname = "Aagney RH"
+print_name(myname)
