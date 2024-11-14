@@ -1,3 +1,3 @@
-def print_name():
-    print("Aagney RH")
-print_name()
+def print_name(name):
+    print(name)
+print_name("Aagney RH")
