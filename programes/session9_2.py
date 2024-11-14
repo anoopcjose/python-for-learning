@@ -1,7 +1,3 @@
-fruits = ["apple", "banana","grapes"]
-sizes = ["Big", "small", "medium"]
-sports = ["Football", "Cricket","Hockey"]
-
-for fruit,size,sport in zip(fruits,sizes,sports):
-    print(fruit,size,sport)
-
+def print_name():
+    print("Aagney RH")
+print_name()
