@@ -1,6 +1,7 @@
 fruits = ["apple", "banana","grapes"]
 sizes = ["Big", "small", "medium"]
+sports = ["Football", "Cricket","Hockey"]
 
-for item in range(len(fruits)):
-    print(fruits[item],sizes[item])
+for fruit,size,sport in zip(fruits,sizes,sports):
+    print(fruit,size,sport)
 
