@@ -9,10 +9,13 @@
 # num % range(2,num) == 0
 
 num = int(input())
+flag = False
 for item in range(2,num):
     if num % item == 0:
-        print("Not prime")
+        flag = True
         break
-    else:
-        print("prime")
-        break
+
+if flag == True:
+    print("Not Prime")
+else:
+    print("Prime")
