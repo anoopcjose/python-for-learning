@@ -1,5 +1,8 @@
-def print_name(name):
-    print(name)
 
-myname = "Aagney RH"
-print_name(myname)
+class odd_or_even_list:
+    def __init__(self):
+        def is_even(number):
+            if number % 2 == 0:
+                return True
+            else:
+                return False
