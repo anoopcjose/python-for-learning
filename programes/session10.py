@@ -4,8 +4,12 @@
 # 3 * 4 = 12
 # 3 * 5 = 15
 # number * range(1,11) = result
-number = int(input())
 
-for item in range(1,11):
-    result = number * item
-    print(f"{number} x {item} = {number * item}")
+def multiplication(number):
+    for item in range(1, 11):
+        result = number * item
+        print(f"{number} x {item} = {number * item}")
+
+number = int(input())
+multiplication(number)
+
