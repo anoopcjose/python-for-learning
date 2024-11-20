@@ -1,19 +1,27 @@
-
 class NumberChecker:
     def __init__(self):
-        self.num1 = int(input("Enter your number"))
+        self.x = int(input("Enter a number: "))
 
-    def check_even_or_odd(self):
-        if self.num1 % 2 == 0:
-            print("Number is even")
+    def check_even_odd(self):
+        if self.x % 2 == 0:
+            print(f'{self.x} is even')
         else:
-            print("Number is odd")
+            print(f'{self.x} is odd')
+
+num = NumberChecker()
+num.check_even_odd()
 
 
+number = -5
 
+if number > 0:
+    print('Positive number')
 
-number = NumberChecker()
-number.check_even_or_odd()
+elif number < 0:
+    print('Negative number')
 
-number1 = NumberChecker()
-number1.check_even_or_odd()
+else:
+    print('Zero')
+
+print('This statement is always executed')
+
