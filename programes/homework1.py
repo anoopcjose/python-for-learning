@@ -3,9 +3,7 @@ class Multiple5:
         self.number_list = number_list
 
     def print_multiple_of_5(self):
-        for number in self.number_list:
-            if number % 5 == 0:
-                print(number, " is a multiple of 5 ")
+        [print(number, "is multiple of 5") for number in self.number_list if number % 5 == 0]
 
 
 
